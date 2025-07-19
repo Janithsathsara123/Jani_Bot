@@ -34,7 +34,7 @@ let   downlodurl=down.di_url
 
 
 //send audio massge
-await conn.sendmassge(from,{audio:{url:downloadurl}.mimetype:"audio/mpeg"},{quoted:mak})
+await conn.sendmassge(from,{audio:{url:downloadurl}.mimetype:"audio/mp3"},{quoted:mak})
 
 
 
@@ -80,7 +80,7 @@ let   downlodurl=down.di_url
 
 
 //send video massge
-await conn.sendmassge(from,{video:{url:downloadurl}.mimetype:"video/mpeg"},{quoted:mak})
+await conn.sendmassge(from,{video:{url:downloadurl}.mimetype:"video/mp4"},{quoted:mak})
 
 
 
