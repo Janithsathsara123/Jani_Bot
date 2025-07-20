@@ -1,6 +1,6 @@
 const config = require('../config')
 const {cmd , commands} = require('../command')
-
+Const {fetchJson}= require('../lib/fucstions')
 cmd({
     pattern: "ai",
     desc: "ai chat.",
