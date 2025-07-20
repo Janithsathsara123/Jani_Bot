@@ -11,3 +11,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 
 
+}catch(e){
+Cosole.log(e)
+reply(`${e}´)
+}
