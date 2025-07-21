@@ -4,7 +4,7 @@ const os = require ("os")
 cmd({
     pattern: "system",
     alias: ["Status","botinfo"],
-    desc: "Check bot online or no.",
+    desc: "Check up time, ram usage and more",
     category: "main",
     filename: __filename
 },
