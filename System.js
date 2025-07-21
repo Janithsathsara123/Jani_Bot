@@ -15,7 +15,7 @@ let status = `*Uptime:*  ${runtime(process.uptime())}
 *HostName:* ${os.hostname()}
 *Owner:* Janith sathsara
 `
-
+return reply(`${status}´)
 }catch(e){
 console.log(e)    
 raply(`${e}´)
