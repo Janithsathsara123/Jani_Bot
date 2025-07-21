@@ -13,3 +13,6 @@ try{
 
 }catch(e){
 console.log(e)    
+raply(`${e}´)
+}
+})
