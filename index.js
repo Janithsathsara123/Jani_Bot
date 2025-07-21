@@ -166,7 +166,10 @@ mek.type === "stickerMessage"
 command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
 }});
 //============================================================================ 
-
+if(! 1sOwner  && cofing.MODE ===" privet") return
+if(! 1sOwner &&  1sgroup  && cofing.MODE === "inbox') return
+if(!  1sOwner && ! 1sgroup && confing.MODE === "groups") return
+//===================================================/////=====================        
 })
 }
 app.get("/", (req, res) => {
